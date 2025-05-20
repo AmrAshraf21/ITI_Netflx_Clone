@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Facebook Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box register-box">
+            <h1><i class="fab fa-facebook"></i></h1>
+            <h2>Create a new account</h2>
+            <form id="registerForm">
+                <div class="name-inputs">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="text" placeholder="Mobile number" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="password" required>
+
+                <div class="gender">
+                    <label>Gender</label>
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="female" required> Female</label>
+                        <label><input type="radio" name="gender" value="male" required> Male</label>
+                        
+                    </div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="auth-links">
+                <a href="login.html">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
