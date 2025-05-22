@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#trending-movies" class="nav-link">Trending</a>
+                <a href="#popular-movies" class="nav-link">Popular</a>
+                <a href="#continue-watching" class="nav-link">Movies</a>
+                <a href="#" class="nav-link">TV Shows</a>
+            </div>
+            <div class="user-actions">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="profile">
+                    <img src="https://i.pravatar.cc/40" alt="Profile">
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <button id="logout-btn" class="logout-btn">Sign Out</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <p>Watch anywhere. Cancel anytime.</p>
+                <button class="cta-button">Watch Free For 30 Days</button>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2 class="section-title">Popular on Netflix</h2>
+            <div class="movie-row" id="popular-movies"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2 class="section-title">Trending Now</h2>
+            <div class="movie-row" id="trending-movies"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2 class="section-title">All Movies</h2>
+            <div class="movie-row" id="continue-watching"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Questions? Call 1-844-505-2993</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <p class="copyright">Netflix Clone - For Educational Purposes Only</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

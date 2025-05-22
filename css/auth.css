@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.auth-container {
+    background: url('../netflix.avif') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.auth-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.auth-header {
+    padding: 20px 50px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-header .logo img {
+    height: 45px;
+}
+
+.sign-in-link {
+    color: white;
+    background-color: #e50914;
+    padding: 7px 17px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.auth-card {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 60px 68px 40px;
+    margin: 0 auto 90px;
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.auth-card h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 16px 20px 0;
+    height: 50px;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    background-color: #454545;
+    outline: none;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: 7px;
+    transform: translateY(0);
+    font-size: 11px;
+}
+
+.auth-button {
+    width: 100%;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background-color: #f40612;
+}
+
+.auth-helpers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.help-link {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+}
+
+.auth-footer {
+    color: #737373;
+}
+
+.auth-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
+
+.recaptcha-info {
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+.error-message {
+    color: #e50914;
+    font-size: 13px;
+    margin-top: 6px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .auth-container {
+        background: #000;
+    }
+    
+    .auth-header {
+        padding: 15px 20px;
+    }
+    
+    .auth-card {
+        padding: 20px;
+        margin: 0 auto;
+        background-color: transparent;
+    }
+    
+    .auth-helpers {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+}
