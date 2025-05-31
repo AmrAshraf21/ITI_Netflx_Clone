@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar">
@@ -23,11 +25,11 @@
             <div class="user-actions">
                 <div class="search-box">
                     <i class="fas fa-search"></i>
-                    <input type="text" id="search-input" placeholder="Search">
+                    <input type="text" id="search-input" placeholder="Search movie...">
                 </div>
                 <div class="profile">
                     <img src="https://i.pravatar.cc/40" alt="Profile">
-                    <i class="fas fa-caret-down"></i>
+
                 </div>
                 <button id="logout-btn" class="logout-btn">Sign Out</button>
             </div>
@@ -44,6 +46,17 @@
         </section>
 
         <section class="movie-section">
+            <h2 class="section-title">All Movies</h2>
+            <div class="movie-slider">
+                <div class="slider-container" id="featured-slider">
+                    
+                </div>
+                <button class="slider-arrow left-arrow">&lt;</button>
+                <button class="slider-arrow right-arrow">&gt;</button>
+            </div>
+        </section>
+
+        <section class="movie-section">
             <h2 class="section-title">Popular on Netflix</h2>
             <div class="movie-row" id="popular-movies"></div>
         </section>
@@ -54,14 +67,14 @@
         </section>
 
         <section class="movie-section">
-            <h2 class="section-title">All Movies</h2>
+            <h2 class="section-title">continue-watching</h2>
             <div class="movie-row" id="continue-watching"></div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="footer-content">
-          
+
             <div class="footer-links">
                 <a href="#">FAQ</a>
                 <a href="#">Help Center</a>
@@ -70,11 +83,33 @@
                 <a href="#">Cookie Preferences</a>
                 <a href="#">Corporate Information</a>
             </div>
-      
+            <div class="copyright">By Amr Ashraf</div>
         </div>
     </footer>
 
+
+    <!-- Chatbot  -->
+    <!-- Chatbot Widget with Gemini AI -->
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header" onclick="toggleChatbot()">
+            <h3>Netflix AI Assistant</h3>
+            <span class="chatbot-toggle">-</span>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="chatbot-message bot">
+                    <p>Hi there! I'm your Netflix AI Assistant powered by Gemini. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbotInput" placeholder="Type your message..."
+                    onkeypress="handleChatbotKeyPress(event)">
+                <button onclick="sendChatbotMessage()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
     <script src="js/main.js"></script>
     <script src="js/auth.js"></script>
 </body>
+
 </html>
