@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Check if user is logged in and redirect
     const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
-    console.log(this.location.pathname);
     
     if (isLoggedIn && (window.location.pathname.includes('login.html') || window.location.pathname.includes('register.html'))) {
         window.location.href = 'index.html';
@@ -39,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (password.length < 6) {
                 document.getElementById('password-error').textContent = 'Password must be at least 6 characters';
                 document.getElementById('password-error').style.display = 'block';
+                document.getElementById('password-error').style.fontSize = '20px';
+
                 isValid = false;
             }
             
@@ -57,6 +58,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     } else {
                         document.getElementById('password-error').textContent = 'Invalid email or password';
                         document.getElementById('password-error').style.display = 'block';
+                        document.getElementById('password-error').style.textAlign = 'center';
+                        document.getElementById('password-error').style.fontSize = '20px';
                     }
                 })
                 .catch(error => console.error('Error:', error));
@@ -124,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
             fetch('http://localhost:3001/users')
                 .then(response => response.json())
                 .then(users => {
-                    const emailExists = users.some(u => u.email === email);
+                    const emailExists = users.some(u => u.email === email);//return true
                     let id = Math.max(...users.map(x=>x.id));
                     id++;
                     

@@ -467,6 +467,286 @@
       "backdrop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunHZ-_4vxF1T3gI67EGy5dyTjbbY-SXfVaA&s",
       "isPopular": true,
       "isTrending": true
+    },
+    {
+      "id": "29",
+      "title": "Extraction",
+      "year": "2020",
+      "runtime": "117min",
+      "genre": [
+        "Action",
+        "Thriller"
+      ],
+      "rating": "6.7",
+      "overview": "A hardened mercenary's mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDJiNzUwYzEtNmQ2Yy00NWE4LWEwNzctM2M0MjE0OGUxZTA3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/1R6cvRtZgsYCkh8UFuWFN33xBP4.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "30",
+      "title": "The Irishman",
+      "year": "2019",
+      "runtime": "209min",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": "7.8",
+      "overview": "Hitman Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family in this acclaimed film from Martin Scorsese.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0OC00NTQ4LThkOGUtNjY2NjkzMDJiMWMwXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/rxUsJ3Z8gDIN0Bz6OuMtfL1UtnZ.jpg",
+      "isPopular": true,
+      "isTrending": true
+    },
+    {
+      "id": "31",
+      "title": "Bird Box",
+      "year": "2018",
+      "runtime": "124min",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "rating": "6.6",
+      "overview": "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "32",
+      "title": "The Gray Man",
+      "year": "2022",
+      "runtime": "129min",
+      "genre": [
+        "Action",
+        "Thriller"
+      ],
+      "rating": "6.5",
+      "overview": "When a shadowy CIA agent uncovers damning agency secrets, he's hunted across the globe by a sociopathic rogue operative who's put a bounty on his head.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWY4MmFiY2QtMzE1YS00NTg1LWIwOTQtYTI4ZGUzNWIxNTVmXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg",
+      "isPopular": true,
+      "isTrending": true
+    },
+    {
+      "id": "33",
+      "title": "Don't Look Up",
+      "year": "2021",
+      "runtime": "138min",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "rating": "7.2",
+      "overview": "Two low-level astronomers must go on a giant media tour to warn humankind of an approaching comet that will destroy planet Earth.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/7JyvBtv6Q7S6x4o4Q0F6xYzKVVl.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "34",
+      "title": "The Adam Project",
+      "year": "2022",
+      "runtime": "106min",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "rating": "6.7",
+      "overview": "After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWM0YWMwMDQtMjE5NS00ZTIwLWE1NWEtODViMWZjMWI2OTU3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg",
+      "isPopular": true,
+      "isTrending": true
+    },
+    {
+      "id": "35",
+      "title": "Red Notice",
+      "year": "2021",
+      "runtime": "118min",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "rating": "6.3",
+      "overview": "An FBI profiler pursuing the world's most wanted art thief becomes his reluctant partner in crime to catch an elusive crook who's always one step ahead.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "36",
+      "title": "Enola Holmes",
+      "year": "2020",
+      "runtime": "123min",
+      "genre": [
+        "Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "rating": "6.6",
+      "overview": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+      "poster": "https://www.themoviedb.org/t/p/original/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+      "isPopular": true,
+      "isTrending": true
+    },
+    {
+      "id": "37",
+      "title": "The Old Guard",
+      "year": "2020",
+      "runtime": "125min",
+      "genre": [
+        "Action",
+        "Fantasy"
+      ],
+      "rating": "6.6",
+      "overview": "Four undying warriors who've secretly protected humanity for centuries become targeted for their mysterious powers just as they discover a new immortal.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDJiZDliZDAtMjc5Yy00MzVhLThkY2MtNDYwNTQ2ZTM5MDcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "isPopular": false,
+      "isTrending": true
+    },
+    {
+      "id": 38,
+      "title": "Army of the Dead",
+      "year": "2021",
+      "runtime": "148min",
+      "genre": [
+        "Action",
+        "Horror",
+        "Thriller"
+      ],
+      "rating": "5.7",
+      "overview": "Following a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble by venturing into the quarantine zone for the greatest heist ever.",
+      "poster": "https://www.themoviedb.org/t/p/original/z2UtGA1WggESspi6KOXeo66lvLx.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/z2UtGA1WggESspi6KOXeo66lvLx.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "39",
+      "title": "The Power of the Dog",
+      "year": "2021",
+      "runtime": "126min",
+      "genre": [
+        "Drama",
+        "Western"
+      ],
+      "rating": "6.8",
+      "overview": "Charismatic rancher Phil Burbank inspires fear and awe in those around him. When his brother brings home a new wife and her son, Phil torments them until he finds himself exposed to the possibility of love.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzgyMzA2NDEtZWUxNy00MDNmLTllMDYtNzZmNTU5ZWVmMzhlXkEyXkFqcGc@._V1_.jpg",
+      "backdrop": "https://www.hollywoodreporter.com/wp-content/uploads/2021/09/TPOTD_KG_240220-7808_R-H-2021.jpg?w=1296&h=730&crop=1",
+      "isPopular": false,
+      "isTrending": true
+    },
+    {
+      "id": "40",
+      "title": "Tick, Tick... Boom!",
+      "year": "2021",
+      "runtime": "115min",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Music"
+      ],
+      "rating": "7.5",
+      "overview": "On the brink of turning 30, a promising theater composer navigates love, friendship and the pressure to create something great before time runs out.",
+      "poster": "https://cdn-p.smehost.net/sites/2c7c5fe7bf994fb1a08a87195b0c4692/wp-content/uploads/2021/10/TTB_AlbumArt_3000x3000_Jonathan.jpg",
+      "backdrop": "https://cdn-p.smehost.net/sites/2c7c5fe7bf994fb1a08a87195b0c4692/wp-content/uploads/2021/10/TTB_AlbumArt_3000x3000_Jonathan.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "41",
+      "title": "The Harder They Fall",
+      "year": "2021",
+      "runtime": "139min",
+      "genre": [
+        "Action",
+        "Western"
+      ],
+      "rating": "6.6",
+      "overview": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek revenge in this Western.",
+      "poster": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABQwM5eRnO5WIFbRJ0b4ib7i3_MCvZjTSJ7RgT4Di7vN3MgNPWxqc8_YjM643s6CbirI5DdC1X5HwUS79axdewILv4WcpOOYarEWs.jpg?r=472",
+      "backdrop": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABQwM5eRnO5WIFbRJ0b4ib7i3_MCvZjTSJ7RgT4Di7vN3MgNPWxqc8_YjM643s6CbirI5DdC1X5HwUS79axdewILv4WcpOOYarEWs.jpg?r=472",
+      "isPopular": false,
+      "isTrending": true
+    },
+    {
+      "id": "42",
+      "title": "The Mitchells vs. The Machines",
+      "year": "2021",
+      "runtime": "114min",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "rating": "7.7",
+      "overview": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDItYzc4MC00NTkxLTk1MWEtY2UyZjY5MjUwNDNkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/6oH378324f5eNWhjK7QHh6lFZXu.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "43",
+      "title": "Ma Rainey's Black Bottom",
+      "year": "2020",
+      "runtime": "94min",
+      "genre": [
+        "Drama",
+        "Music"
+      ],
+      "rating": "6.9",
+      "overview": "Tensions rise when trailblazing blues singer Ma Rainey and her band gather at a Chicago recording studio in 1927.",
+      "poster": "https://syncopatedtimes.com/wp-content/uploads/2020/12/Branford-Marsalis-Ma-Raineys-Black-Bottom-OST-2020.jpg",
+      "backdrop": "https://syncopatedtimes.com/wp-content/uploads/2020/12/Branford-Marsalis-Ma-Raineys-Black-Bottom-OST-2020.jpg",
+      "isPopular": false,
+      "isTrending": true
+    },
+    {
+      "id": "44",
+      "title": "The Midnight Sky",
+      "year": "2020",
+      "runtime": "118min",
+      "genre": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "rating": "5.6",
+      "overview": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+      "poster": "https://www.themoviedb.org/t/p/original/7ZP8HtgOIDaBs12krXgUIygqEsy.jpg",
+      "backdrop": "https://www.themoviedb.org/t/p/original/7ZP8HtgOIDaBs12krXgUIygqEsy.jpg",
+      "isPopular": true,
+      "isTrending": false
+    },
+    {
+      "id": "45",
+      "title": "Da 5 Bloods",
+      "year": "2020",
+      "runtime": "154min",
+      "genre": [
+        "Drama",
+        "War"
+      ],
+      "rating": "6.5",
+      "overview": "Four African American vets battle the forces of man and nature when they return to Vietnam seeking the remains of their fallen squad leader and the gold fortune he helped them hide.",
+      "poster": "https://i1.wp.com/theroughcutpod.com/wp-content/uploads/2020/11/DA5Bloods.jpeg?fit=1200%2C675&ssl=1",
+      "backdrop": "https://i1.wp.com/theroughcutpod.com/wp-content/uploads/2020/11/DA5Bloods.jpeg?fit=1200%2C675&ssl=1",
+      "isPopular": false,
+      "isTrending": true
     }
   ],
   "users": [
@@ -487,6 +767,12 @@
       "name": "amr ashraf",
       "email": "amrashraf314@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "4",
+      "name": "Amr",
+      "email": "amr@gmail.com",
+      "password": "123456789"
     }
   ],
   "reviews": [
@@ -496,8 +782,8 @@
       "userId": 1,
       "userName": "John Doe",
       "rating": 5,
-      "text": "Absolutely loved this series! The characters are so well developed and the story is captivating.",
-      "date": "2023-05-15T10:30:00Z"
+      "text": "Absolutely loved this series! The characters are so well developed and the story is captivating. Awesommmmmmmmmmme",
+      "date": "2025-05-23T03:57:58.405Z"
     },
     {
       "id": "2",
@@ -516,7 +802,24 @@
       "rating": 4,
       "text": "Henry Cavill is perfect as Geralt. The fight scenes are incredibly well choreographed.",
       "date": "2023-04-10T09:15:00Z"
+    },
+    {
+      "id": "5",
+      "movieId": 26,
+      "userId": 1,
+      "userName": "John Doe",
+      "rating": 5,
+      "text": "asfasfsafaa",
+      "date": "2025-05-23T03:37:45.479Z"
+    },
+    {
+      "id": "6",
+      "movieId": 1,
+      "userId": 4,
+      "userName": "Amr",
+      "rating": 4,
+      "text": "Awesome",
+      "date": "2025-05-27T17:40:54.769Z"
     }
-  
   ]
 }
