@@ -618,7 +618,7 @@
       "isTrending": true
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Army of the Dead",
       "year": "2021",
       "runtime": "148min",
@@ -773,6 +773,12 @@
       "name": "Amr",
       "email": "amr@gmail.com",
       "password": "123456789"
+    },
+    {
+      "id": "5",
+      "name": "amr",
+      "email": "amr2@gmail.com",
+      "password": "123456789"
     }
   ],
   "reviews": [
@@ -820,6 +826,15 @@
       "rating": 4,
       "text": "Awesome",
       "date": "2025-05-27T17:40:54.769Z"
+    },
+    {
+      "id": "7",
+      "movieId": 8,
+      "userId": 5,
+      "userName": "amr",
+      "rating": 3,
+      "text": "seeeeeeeeeeeeeewwww",
+      "date": "2025-06-01T10:03:08.549Z"
     }
   ]
 }

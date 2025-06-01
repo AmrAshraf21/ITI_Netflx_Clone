@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!isValid) return;
             
             // Check user credentials
-            fetch('http://localhost:3001/users')
+            fetch('https://awesome-deeply-mouth.glitch.me/users')
                 .then(response => response.json())
                 .then(users => {
                     const user = users.find(u => u.email === email && u.password === password);
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!isValid) return;
             
             // Check if email already exists
-            fetch('http://localhost:3001/users')
+            fetch('https://awesome-deeply-mouth.glitch.me/users')
                 .then(response => response.json())
                 .then(users => {
                     const emailExists = users.some(u => u.email === email);//return true
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             password
                         };
                         
-                        fetch('http://localhost:3001/users', {
+                        fetch('https://awesome-deeply-mouth.glitch.me/users', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'

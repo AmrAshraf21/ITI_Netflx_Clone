@@ -1,5 +1,7 @@
 
 
+
+
 let allMovies  =[];
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -12,13 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Load movies data
-    fetch('http://localhost:3001/movies')
+    fetch('https://awesome-deeply-mouth.glitch.me/movies')
         .then(response => response.json())
         .then(movies => {
           displayMovies(movies, 'featured-slider');
-            displayMovies(movies.filter(movie => movie.isPopular).slice(0,16), 'popular-movies');
+            displayMovies(movies.filter(movie => movie.isPopular).slice(0,21), 'popular-movies');
     displayMovies(movies.filter(movie => movie.isTrending), 'trending-movies');
-    displayMovies(movies.slice(0, 8), 'continue-watching');
+    displayMovies(movies.slice(0, 14), 'continue-watching');
     
     // Add movies to slider
     
@@ -51,7 +53,7 @@ const searchResults = document.createElement('div');
 searchResults.className = 'search-results';
 searchBox.appendChild(searchResults);
 
-fetch('http://localhost:3001/movies')
+fetch('https://awesome-deeply-mouth.glitch.me/movies')
     .then(response => response.json())
     .then(movies => {
         allMovies = movies;

@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Load movie details
-    fetch(`http://localhost:3001/movies/${movieId}`)
+    fetch(`https://awesome-deeply-mouth.glitch.me/movies/${movieId}`)
         .then(response => response.json())
         .then(movie => {
             displayMovieDetails(movie);
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
              
-            fetch(`http://localhost:3001/reviews`).then(res=>{
+            fetch(`https://awesome-deeply-mouth.glitch.me/reviews`).then(res=>{
                 return res.json();
             }).then(result=>{
                const lastId = Math.max(...result.map(x=>parseInt(x.id)))+1;
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
                 return newReview;                
             }).then(newReview=>{
-              fetch('http://localhost:3001/reviews',{
+              fetch('https://awesome-deeply-mouth.glitch.me/reviews',{
                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -141,7 +141,7 @@ function displayMovieDetails(movie) {
 }
 
 function loadReviews(movieId) {
-    fetch('http://localhost:3001/reviews')
+    fetch('https://awesome-deeply-mouth.glitch.me/reviews')
         .then(response => response.json())
         .then(reviews => {
             const movieReviews = reviews.filter(review => review.movieId === parseInt(movieId));
@@ -179,7 +179,7 @@ function setupReviewActions() {
 }
 
 function editReview(reviewId) {
-    fetch(`http://localhost:3001/reviews/${reviewId}`)
+    fetch(`https://awesome-deeply-mouth.glitch.me/reviews/${reviewId}`)
         .then(response => response.json())
         .then(review => {
             // Create edit form
@@ -259,7 +259,7 @@ function updateReview(reviewId) {
         return;
     }
 
-    fetch(`http://localhost:3001/reviews/${reviewId}`, {
+    fetch(`https://awesome-deeply-mouth.glitch.me/reviews/${reviewId}`, {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json'
@@ -280,7 +280,7 @@ function updateReview(reviewId) {
 }
 
 function deleteReview(reviewId) {
-    fetch(`http://localhost:3001/reviews/${reviewId}`, {
+    fetch(`https://awesome-deeply-mouth.glitch.me/reviews/${reviewId}`, {
         method: 'DELETE'
     })
     .then(() => {
